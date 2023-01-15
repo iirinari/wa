@@ -8,14 +8,14 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Lviv" />
         <footer>
-          Open-source code by Iryna Rishko and is{" "}
+          {" "}
           <a
             href="https://github.com/iirinari/wa"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
-            open-sourced on Github
+            Open-source code by Iryna Rishko
          </footer>
       </div>
     </div>
