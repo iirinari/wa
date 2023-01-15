@@ -6,20 +6,17 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Bamberg" />
+        <Weather defaultCity="Lviv" />
         <footer>
-          This Weather React App was coded by Natalia Pavlyk and is{" "}
+          Open-source code by Iryna Rishko and is{" "}
           <a
-            href="https://github.com/tasha201/weather-react-app"
+            href="https://github.com/iirinari/wa"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
             open-sourced on Github
-          </a>{" "}
-          and <a href="https://fanciful-kringle-a1a815.netlify.app" target="_blank"
-            rel="noreferrer">hosted</a> on Netlify
-        </footer>
+         </footer>
       </div>
     </div>
   );
